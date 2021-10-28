@@ -16,7 +16,7 @@ def show_senti_str(value):
 st.title("Simple Sentiment Analysis")
 
 with st.form("f1"):
-    message = st.text_area("Enter you message")
+    message = st.text_area("Enter you message",height=500)
     style = st.checkbox("do sentence wise analysis?")
     btn = st.form_submit_button("Analyse message")
 
